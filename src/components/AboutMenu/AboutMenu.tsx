@@ -35,7 +35,7 @@ const AboutMenu = () => {
                   ns='about'
                   components={[
                     <a
-                      href='https://github.com/ztjhz/BetterChatGPT'
+                      href='https://github.com/Em1tSan/NeuroBetterChatGPT'
                       target='_blank'
                       className='link'
                     />,
@@ -87,7 +87,7 @@ const AboutMenu = () => {
                     ns='about'
                     components={[
                       <a
-                        href='https://github.com/ztjhz/BetterChatGPT'
+                        href='https://github.com/Em1tSan/NeuroBetterChatGPT'
                         target='_blank'
                         className='link'
                       />,
@@ -97,39 +97,13 @@ const AboutMenu = () => {
                 <p>{t('support.paragraph3', { ns: 'about' })}</p>
 
                 <div className='flex flex-col items-center gap-4 my-4'>
-                  <a href='https://github.com/sponsors/ztjhz' target='_blank'>
+
+                  <a href='https://boosty.to/neuroapi' target='_blank'>
                     <img
-                      src='https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86'
-                      width='120px'
-                      alt='Support us through GitHub Sponsors'
+                      src='https://camo.githubusercontent.com/0eed7b03b82ef4e41db7b7b8ec82c676ffda8c678f07c29283958c99e37ceb0d/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f392f39322f426f6f7374795f6c6f676f2e7376672f35313270782d426f6f7374795f6c6f676f2e7376672e706e673f3230323330323039313732313435'
+                      alt='Support us through the Boosty platform.'
                     />
                   </a>
-                  <a href='https://ko-fi.com/betterchatgpt' target='_blank'>
-                    <img
-                      src='./kofi.svg'
-                      alt='Support us through the Ko-fi platform.'
-                    />
-                  </a>
-                  <div className='flex gap-x-10 gap-y-4 flex-wrap justify-center'>
-                    <div className='flex flex-col items-center justify-center gap-1'>
-                      <div>{t('support.alipay', { ns: 'about' })} (Ayaka)</div>
-                      <img
-                        className='rounded-md w-32 h-32'
-                        src='https://ayaka14732.github.io/sponsor/alipay.jpg'
-                        alt='Support us through Alipay'
-                      />
-                    </div>
-                    <div className='flex flex-col items-center justify-center gap-1'>
-                      <div>
-                        {t('support.wechatPay', { ns: 'about' })} (Ayaka)
-                      </div>
-                      <img
-                        className='rounded-md w-32 h-32'
-                        src='https://ayaka14732.github.io/sponsor/wechat.png'
-                        alt='Support us through WeChat Pay'
-                      />
-                    </div>
-                  </div>
                 </div>
                 <p>{t('support.paragraph4', { ns: 'about' })}</p>
               </>
